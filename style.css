@@ -1,0 +1,90 @@
+/* Nome do colégio */ .header1 {
+    background-color: #112E4F;
+    color: #2D79CF;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Área de navegação */ .header2 {
+    background-color: #225B9C;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+nav ul li {
+    margin: 0px;
+    display: inline-block; /* Isso é necessário para que os ícones fiquem lado a lado com os textos */
+    margin-right: 50px; /* Isso adiciona um espaçamento entre os ícones */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li .fa-solid {
+    font-size: 30px; /* Altera o tamanho dos ícones */
+    color: #1E3050; /* Altera a cor dos ícones */
+    margin-right: 10px; /* Isso adiciona um espaçamento entre os ícones */
+}
+
+.recepcao {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(#2D79CF, #A1C2E8)
+}
+
+.saudacao {
+    font-size: 40px;
+}
+
+.recepcao h2 { /* Correção de margem branca/vazia entre o header a o section */
+    margin-top: 0;
+  }
+
+.brasao {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: #112E4F;
+    background-color: #A1C2E8
+    
+}
+
+.oferta { /* Correção de margem branca/vazia entre os dois section... tá ficando chato já */
+    margin-bottom: 0;
+}
+
+.impacto { /* Correção... */
+    margin-top: 0;
+}
+
+.rodape {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    color: #2D79CF;
+    background-color: #112E4F
+}
